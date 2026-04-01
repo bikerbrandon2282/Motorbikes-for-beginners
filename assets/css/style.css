@@ -1,132 +1,139 @@
 /* Global Styles */
 
 hr {
-    border: none;
-    border-radius: 2px;
-    height: 4px;
-    background-color: white;
-    
+  border: none;
+  border-radius: 2px;
+  height: 4px;
+  background-color: white;
 }
 body {
-    background-image: url("../images/webpage-bg.jpg");
-    background-size: cover;
-    background-position: center;
-}
-#hero {
-    background-image: url("../images/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
-}
-#getting-started {
-    background-image: url("../images/getting-started-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
-}
-#safe-tips {
-    background-image: url("../images/restrictions-bg.webp");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
-}
-#essential-gear{
-    background-image: url("../images/getting-started-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
-}
-#types-of-licenses, #types {
-    background-image: url("../images/types-of-licenses.jpg");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
-}
-#types {
-    background-image: url("../images/types-bg.webp");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
+  background-image: url("../images/webpage-bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .text-bg {
-    background-color: rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px #000000;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px #000000;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.background-shade {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+#hero {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
+}
+#getting-started {
+  background-image: url("../images/getting-started-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
+}
+#safe-tips {
+  background-image: url("../images/restrictions-bg.webp");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
+}
+#essential-tips {
+  background-image: url("../images/getting-started-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
+}
+#types-of-licenses,
+#types {
+  background-image: url("../images/types-of-licenses.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
+}
+#types {
+  background-image: url("../images/types-bg.webp");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
 }
 /* licence-requirements must have image changed to something different, current is a placeholder to demonstrate layout */
 #license-requirements {
-    background-image: url("../images/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
 }
 #riding-restrictions {
-    background-image: url("../images/restrictions-bg.webp");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
+  background-image: url("../images/restrictions-bg.webp");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
 }
 #road-awareness {
-    background-image: url("../images/road-awareness-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
+  background-image: url("../images/road-awareness-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
 }
 #maintenance {
-    background-image: url("../images/maintenance-bg.png");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 100px 20px;
-    border-radius: 10px;
+  background-image: url("../images/maintenance-bg.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
 }
