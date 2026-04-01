@@ -109,7 +109,7 @@ body {
     border-radius: 10px;
 }
 #road-awareness {
-    background-image: url("../images/temp-road-awareness.jpg");
+    background-image: url("../images/road-awareness-bg.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -120,7 +120,7 @@ body {
     border-radius: 10px;
 }
 #maintenance {
-    background-image: url("../images/types-bg.webp");
+    background-image: url("../images/maintenance-bg.png");
     background-size: cover;
     background-position: center;
     align-items: center;
