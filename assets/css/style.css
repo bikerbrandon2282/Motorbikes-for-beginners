@@ -7,7 +7,7 @@ hr {
   background-color: white;
 }
 body {
-  background-image: url("../images/webpage-bg.webp");
+  background-image: url("assets/images/webpage-bg.webp");
   background-size: cover;
   background-position: center;
 }
@@ -37,7 +37,7 @@ img {
   font-size: 1rem;
 }
 #hero {
-  background-image: url("../images/hero.webp");
+  background-image: url("../assets/images/hero.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -153,8 +153,5 @@ img {
 @media screen and (max-width: 576px) {
   #types {
     margin: 48px 16px 0px 16px;
-  }
-  .nav {
-    width:110%;
   }
 }
