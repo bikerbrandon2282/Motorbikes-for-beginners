@@ -59,7 +59,7 @@ img {
   border-radius: 10px;
 }
 #safe-tips {
-  background-image: url("../images/restrictions-bg.webp");
+  background-image: url("../images/safe-tips.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -70,7 +70,7 @@ img {
   border-radius: 10px;
 }
 #essential-tips {
-  background-image: url("../images/getting-started-bg.webp");
+  background-image: url("../images/essential-tips.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -80,8 +80,7 @@ img {
   padding: 100px 20px;
   border-radius: 10px;
 }
-#types-of-licenses,
-#types {
+#types-of-licenses {
   background-image: url("../images/types-of-licenses.webp");
   background-size: cover;
   background-position: center;
@@ -103,9 +102,8 @@ img {
   padding: 100px 20px;
   border-radius: 10px;
 }
-/* licence-requirements must have image changed to something different, current is a placeholder to demonstrate layout */
 #license-requirements {
-  background-image: url("../images/hero.webp");
+  background-image: url("../images/license-requirements.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
