@@ -7,16 +7,12 @@ hr {
   background-color: white;
 }
 body {
-  background-image: url("../images/webpage-bg.jpg");
+  background-image: url("../images/webpage-bg.webp");
   background-size: cover;
   background-position: center;
 }
-.text-bg {
-  background-color: rgba(0, 0, 0, 0.5);
-  text-shadow: 2px 2px #000000;
-  font-weight: bold;
-  color: #ffffff;
-  font-size: 1rem;
+img {
+  border-radius: 10px;
 }
 .background-shade {
   align-items: center;
@@ -25,8 +21,23 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
 }
+.card {
+  margin: 24px 16px;
+  padding: 5px 5px;
+  background-color: #f1f1f1;
+}
+.card-img-top {
+  max-height:400px;
+}
+.text-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px #000000;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1rem;
+}
 #hero {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/hero.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -37,7 +48,7 @@ body {
   border-radius: 10px;
 }
 #getting-started {
-  background-image: url("../images/getting-started-bg.jpg");
+  background-image: url("../images/getting-started-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -59,7 +70,7 @@ body {
   border-radius: 10px;
 }
 #essential-tips {
-  background-image: url("../images/getting-started-bg.jpg");
+  background-image: url("../images/getting-started-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -71,7 +82,7 @@ body {
 }
 #types-of-licenses,
 #types {
-  background-image: url("../images/types-of-licenses.jpg");
+  background-image: url("../images/types-of-licenses.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -94,7 +105,7 @@ body {
 }
 /* licence-requirements must have image changed to something different, current is a placeholder to demonstrate layout */
 #license-requirements {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/hero.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -116,7 +127,7 @@ body {
   border-radius: 10px;
 }
 #road-awareness {
-  background-image: url("../images/road-awareness-bg.jpg");
+  background-image: url("../images/road-awareness-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -127,7 +138,7 @@ body {
   border-radius: 10px;
 }
 #maintenance {
-  background-image: url("../images/maintenance-bg.png");
+  background-image: url("../images/maintenance-bg.webp");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -136,4 +147,14 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   padding: 100px 20px;
   border-radius: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 576px) {
+  #types {
+    margin: 48px 16px 0px 16px;
+  }
+  .nav {
+    width:110%;
+  }
 }
