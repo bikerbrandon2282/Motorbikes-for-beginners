@@ -7,7 +7,7 @@ hr {
   background-color: white;
 }
 body {
-  background-image: url("assets/images/webpage-bg.webp");
+  background-image: url("../assets/images/webpage-bg.webp");
   background-size: cover;
   background-position: center;
 }
